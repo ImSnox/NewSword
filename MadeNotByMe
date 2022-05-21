@@ -13,10 +13,10 @@ wait(.001)
 local Sound = Instance.new('Sound')
 
 Sound.Parent = game.Workspace
-Sound.SoundId ="rbxassetid://142376088"
-Sound.PlaybackSpeed = 0.8
+Sound.SoundId ="rbxassetid://9046865270"
+Sound.PlaybackSpeed = 0.9
 Sound.Playing = true
-Sound.Looped = true
+Sound.Looped = false
 
 wait(.001)
 for i,v in next, game:GetService("Players").LocalPlayer.Character:GetDescendants() do
